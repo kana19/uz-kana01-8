@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', uzRenderSidebar);
 //   callGAS / callGASPost 内で { action:'user_call', clientId:CLIENT_ID, userAction, data } の
 //   形に自動変換して master GAS に投げる＝ 呼出側（sales.js/cost.js/attendance 等）は無変更で
 //   v0.10.0 経路になる。詳細は 資料/知識MD/04_運営ポータル.md §11。
-const GAS_URL = 'https://script.google.com/macros/s/AKfycbwBDHj9-p6ZT6ExXrxF1Q-XwiEkNMPwDc0aAuk7zptivRhWhepvaCDsjaIJd7WHh_h9-A/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycbyZTQH6E_JIgHqigCbbfQHScJoxBFVKdJOX80WM6SNRlmLCmOjLxsKKkRRff0_gLrQ/exec';
 const CLIENT_ID = '__CLIENT_ID__';
 
 /* ── デモモード（複製元 ultra-z-leo・UI確認用） ───────────────
