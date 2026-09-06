@@ -11,7 +11,8 @@
 
 // v0.10.0 一元GAS化：master GAS 経由（app.js §「GAS設定」と同一設計）
 const GAS_URL = 'https://script.google.com/macros/s/AKfycbyZTQH6E_JIgHqigCbbfQHScJoxBFVKdJOX80WM6SNRlmLCmOjLxsKKkRRff0_gLrQ/exec';
-const CLIENT_ID = '__CLIENT_ID__';
+const API_TOKEN = '52831e60ab72401eb49604f1c12070dd';
+const CLIENT_ID = 'uz-kana01-8';
 const WD = ['日','月','火','水','木','金','土'];
 const STAFF_ID_KEY = 'uz_staff_id';
 
