@@ -177,7 +177,8 @@ document.addEventListener('DOMContentLoaded', uzRenderSidebar);
 //   形に自動変換して master GAS に投げる＝ 呼出側（sales.js/cost.js/attendance 等）は無変更で
 //   v0.10.0 経路になる。詳細は 資料/知識MD/04_運営ポータル.md §11。
 const GAS_URL = 'https://script.google.com/macros/s/AKfycbyZTQH6E_JIgHqigCbbfQHScJoxBFVKdJOX80WM6SNRlmLCmOjLxsKKkRRff0_gLrQ/exec';
-const CLIENT_ID = '__CLIENT_ID__';
+const API_TOKEN = '52831e60ab72401eb49604f1c12070dd';
+const CLIENT_ID = 'uz-kana01-8';
 
 /* ── デモモード（複製元 ultra-z-leo・UI確認用） ───────────────
    複製元はテンプレGASの SPREADSHEET_ID が __SPREADSHEET_ID__ のままで、
